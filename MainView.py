@@ -8,8 +8,8 @@ labelDemo = tk.Label
 
 for i in range(1, 10):
     ans = 1 * i
-    aaa = ("1" + "x" + str(i) + "=" + str(ans))
-    print(type(aaa), aaa)
+    answer = ("1" + "x" + str(i) + "=" + str(ans))
+    print(type(answer), answer)
 
 
 name: str = "bob"
@@ -21,7 +21,7 @@ print(type(clock))
 print("今天我要和" + name + "去吃飯, 我們約晚上" + clock + "點")
 
 # Label放置
-labelDemo = tk.Label(rootWindows, text=aaa)
+labelDemo = tk.Label(rootWindows, text=answer)
 labelDemo.pack()
 
 
